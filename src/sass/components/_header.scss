@@ -1,0 +1,60 @@
+.header-wrapper{
+    background: $white;
+    opacity: .90;
+}
+
+header{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: $gradient, url("../images/nate-greno-df6zCs6MCYQ-unsplash.jpg");
+}
+
+.header{
+    padding: $narmal-size 0;
+    max-width: $base-width;
+    margin: 0 auto;  
+}
+
+
+//header logo
+.header-txt h1{
+    font-size: $narmal-size;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: $x-small-size;
+    color:$black;
+    text-shadow: $box-shadow;
+}
+.header-txt h3{
+    font-size: $base-size;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    color: $black;
+    text-transform: uppercase;
+}
+
+.header-hero{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-size:6.2rem;
+        color: $white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+                
+    }
+
+    p{
+        font-size: $narmal-size;
+        color: $white;
+        width: 45%;
+        text-align: center;
+    }
+}
+

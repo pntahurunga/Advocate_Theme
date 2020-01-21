@@ -1,0 +1,39 @@
+.btn{
+    cursor: pointer;
+    padding: 1.2rem $m-size;
+    font-size: $small-size;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: all .2s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+   
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.btn:active{
+    transform: translateY(0px);
+    border: $red;
+}
+
+.btn-red{
+    background: $red;
+    color: $white;
+}
+
+.btn-lg{
+    width: 100%;
+}
+
+.post-btn{
+    padding-top: 2.4rem;
+    width: 100%;
+    text-align: center;
+}

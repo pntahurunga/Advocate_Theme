@@ -1,0 +1,26 @@
+.partner{
+    display: flex;
+    justify-content: space-around;
+    padding: $x-big-size 0;
+    background:$dark-gray;
+
+    img{
+        width: 35rem;
+    }
+
+}
+
+
+.paragraph{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: $narmal-size ;
+    margin-bottom: $x-small-size;
+    font-weight: 300;
+}
+
+
+#partners{
+    padding: $x-big-size 0;
+}

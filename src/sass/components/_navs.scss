@@ -1,0 +1,23 @@
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.header-nav--menu ul li{
+    display: inline-block;
+    padding: $x-small-size $small-size;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: $small-size;
+    text-align: right;
+    color: $black;
+}
+
+.header-nav--menu{
+    justify-self: flex-end;
+    align-self: flex-end;
+    
+    display: flex;
+}
+

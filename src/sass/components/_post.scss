@@ -1,0 +1,57 @@
+#posts{
+    background-image: url("../images/marketing_2.svg");
+    background-size: 55%;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: $x-big-size 0;
+}
+.post{  
+    width: $base-width;
+    display: flex;
+    margin: 0 auto;
+    background:$white;
+    padding:  $m-size;
+    box-shadow: $box-shadow;
+}
+
+.post-main{
+    padding: 0 $m-size;
+    flex-basis: 76rem;
+    position: relative;
+    img{
+        width: 100%;
+        box-shadow: $box-shadow;
+    }
+    
+}
+    
+
+.post-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 38rem;
+    .post-side-1{
+        padding-bottom: $narmal-size;
+    }
+    img{
+        width: 100%;
+        box-shadow: $box-shadow;
+    }
+}
+
+.post-header{
+    font-size: $m-size;
+    font-weight: 300;;
+}
+
+.post-sider--header{
+    font-size: $base-size;
+    color: $black; 
+    a{
+        text-decoration: none;
+        font-weight: 400;
+        color: $black;
+        line-height: 1;
+    }
+}

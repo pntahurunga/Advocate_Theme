@@ -1,0 +1,380 @@
+/* fallback for old browsers */
+/* Chrome 10-25, Safari 5.1-6 */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:100,300,400,900,900i&display=swap");
+@font-face {
+  font-family: "Artifact";
+  src: url("./Artifact.otf") format("woff2"), url("./Artifact.otf") format("woff"); }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2d3436;
+  padding: 2.4rem;
+  background: #fff; }
+
+.icon {
+  font-size: 9.2rem;
+  color: #97cfe7; }
+
+.meta {
+  font-size: 1.4rem;
+  font-weight: 400; }
+
+.paragraph-base {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2d3436; }
+
+.section-header {
+  font-weight: 700;
+  font-size: 4.8rem;
+  margin-bottom: 1.6rem;
+  text-transform: uppercase; }
+
+.section-header--white {
+  color: #fff; }
+
+.header-gradient {
+  font-size: 72px;
+  background: linear-gradient(to top left, rgba(255, 255, 255, 0.5), rgba(109, 212, 250, 0.644), rgba(41, 127, 185, 0.692));
+  background: -webkit-linear-gradient(to top left, rgba(255, 255, 255, 0.5), rgba(109, 212, 250, 0.644), rgba(41, 127, 185, 0.692));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+ul {
+  list-style: none; }
+
+a, a:link, a:visited {
+  text-decoration: none;
+  color: inherit; }
+
+button {
+  cursor: pointer; }
+
+.container {
+  width: 114rem;
+  margin: 0 auto; }
+
+#footer {
+  padding: 8.2rem 0; }
+
+img {
+  border-radius: 3px; }
+
+a, a:link, a:visited {
+  text-decoration: none;
+  cursor: pointer; }
+
+#video {
+  background-image: url("../images/marketing_2.svg");
+  background-size: 45%;
+  background-position: right;
+  background-repeat: no-repeat; }
+
+.scripps_iframe_embed {
+  padding: 9.2rem;
+  margin-bottom: 9.2rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
+.header-wrapper {
+  background: #fff;
+  opacity: .90; }
+
+header {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0.5), rgba(109, 212, 250, 0.644), rgba(41, 127, 185, 0.692)), url("../images/nate-greno-df6zCs6MCYQ-unsplash.jpg"); }
+
+.header {
+  padding: 2.4rem 0;
+  max-width: 114rem;
+  margin: 0 auto; }
+
+.header-txt h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.8rem;
+  color: #2d3436;
+  text-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
+.header-txt h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  color: #2d3436;
+  text-transform: uppercase; }
+
+.header-hero {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .header-hero h1 {
+    font-size: 6.2rem;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700; }
+  .header-hero p {
+    font-size: 2.4rem;
+    color: #fff;
+    width: 45%;
+    text-align: center; }
+
+.header-nav {
+  display: flex;
+  justify-content: space-between; }
+
+.header-nav--menu ul li {
+  display: inline-block;
+  padding: 0.8rem 1.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-align: right;
+  color: #2d3436; }
+
+.header-nav--menu {
+  justify-self: flex-end;
+  align-self: flex-end;
+  display: flex; }
+
+.btn {
+  cursor: pointer;
+  padding: 1.2rem 3.6rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  transition: all .2s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.btn:active {
+  transform: translateY(0px);
+  border: #e74c3c; }
+
+.btn-red {
+  background: #e74c3c;
+  color: #fff; }
+
+.btn-lg {
+  width: 100%; }
+
+.post-btn {
+  padding-top: 2.4rem;
+  width: 100%;
+  text-align: center; }
+
+.services {
+  padding: 9.2rem 0;
+  background-image: url("https://images.pexels.com/photos/163848/road-mountains-sunset-path-163848.jpeg?cs=srgb&dl=gray-concrete-road-beside-brown-mountain-during-golden-hour-163848.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  margin-top: 9.2rem; }
+
+.cars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.services-card {
+  flex-basis: 34rem;
+  padding: 2.4rem;
+  text-align: center;
+  background: #fff;
+  opacity: .90;
+  border-radius: 3px; }
+
+.card-header {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+  text-align: center;
+  color: #2d3436; }
+
+.section-header {
+  font-size: 4.8rem;
+  text-align: center; }
+
+.partner {
+  display: flex;
+  justify-content: space-around;
+  padding: 9.2rem 0;
+  background: #3498db; }
+  .partner img {
+    width: 35rem; }
+
+.paragraph {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2.4rem;
+  margin-bottom: 0.8rem;
+  font-weight: 300; }
+
+#partners {
+  padding: 9.2rem 0; }
+
+#posts {
+  background-image: url("../images/marketing_2.svg");
+  background-size: 55%;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 9.2rem 0; }
+
+.post {
+  width: 114rem;
+  display: flex;
+  margin: 0 auto;
+  background: #fff;
+  padding: 3.6rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
+.post-main {
+  padding: 0 3.6rem;
+  flex-basis: 76rem;
+  position: relative; }
+  .post-main img {
+    width: 100%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
+.post-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 38rem; }
+  .post-side .post-side-1 {
+    padding-bottom: 2.4rem; }
+  .post-side img {
+    width: 100%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
+.post-header {
+  font-size: 3.6rem;
+  font-weight: 300; }
+
+.post-sider--header {
+  font-size: 1.6rem;
+  color: #2d3436; }
+  .post-sider--header a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #2d3436;
+    line-height: 1; }
+
+footer {
+  background: #043A63;
+  color: #fff; }
+
+.footer {
+  display: flex; }
+
+.footer-left {
+  padding: 2.4rem; }
+  .footer-left p {
+    font-size: 1.6rem;
+    color: #97cfe7; }
+    .footer-left p a:hover {
+      color: #fff; }
+
+.footer-center {
+  flex: 1;
+  padding: 2.4rem; }
+  .footer-center ul {
+    list-style: none;
+    color: #97cfe7; }
+    .footer-center ul a:hover {
+      color: #fff; }
+
+.footer-right {
+  padding: 2.4rem;
+  flex: 1; }
+  .footer-right form {
+    display: flex;
+    flex-direction: column; }
+    .footer-right form input, .footer-right form textarea {
+      padding: 0.8rem 1.4rem;
+      margin-bottom: 0.8rem;
+      font-size: 1.6rem;
+      border-radius: 3px;
+      color: #2d3436;
+      border: none;
+      box-sizing: border-box; }
+    .footer-right form textarea {
+      resize: none; }
+
+.footer-title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #fff;
+  text-transform: capitalize; }
+
+.footer-header {
+  font-size: 2.4rem;
+  font-weight: 300;
+  color: #97cfe7;
+  margin-bottom: 0.8rem; }
+
+.footer-btn {
+  text-align: right; }
+
+.social i {
+  font-size: 1.6rem;
+  color: #97cfe7;
+  margin-right: 0.8rem;
+  font-weight: 700; }
+  .social i:hover {
+    color: #fff;
+    cursor: pointer; }
+
+.btn {
+  cursor: pointer;
+  padding: 1.2rem 3.6rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  transition: all .2s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.btn:active {
+  transform: translateY(0px);
+  border: #e74c3c; }
+
+.btn-red {
+  background: #e74c3c;
+  color: #fff; }
+
+.btn-lg {
+  width: 100%; }
+
+.post-btn {
+  padding-top: 2.4rem;
+  width: 100%;
+  text-align: center; }
