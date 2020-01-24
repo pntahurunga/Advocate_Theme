@@ -35,7 +35,7 @@
                                 </ul>
                             </div>
                             <div>
-                                <button class="btn btn-red" data-toggle="modal" data-target="#myModal">Donate</button>
+                                <button class="btn btn-red btn-fix" data-toggle="modal" data-target="#myModal">Donate</button>
                             </div>
                         </div>
         
@@ -44,13 +44,13 @@
         </div>
         </div>
         <div class="header-hero">
-            <h1>We Advocate for Peace and Change</h1>
-            <p>Our vision is to have a firm group of advocates for humanitarian situations around the world. We hope to be the voice of all refugees in our communities. Our aim is to create an educated and diverse community that welcomes all individuals</p>
+            <h1 class="hero-h hero-h-sm">We Advocate for Peace and Change</h1>
+            <p class="paragraph paragraph-sm">Our vision is to have a firm group of advocates for humanitarian situations around the world. We hope to be the voice of all refugees in our communities. Our aim is to create an educated and diverse community that welcomes all individuals</p>
         </div>
     </header>
     <section class="services">
             <div class="container">
-                <h1 class="section-header section-header--white">What we do</h1>
+                <h1 class="section-header--white">What we do</h1>
                 <div class="cars">
                     <div class="services-card">
                         <i class="icofont-law-alt-2 icon"></i>
@@ -78,10 +78,12 @@
     </section>
 
     <section id="partners">
-            <h1 class="section-header header-gradient">Our Supporters</h1>
-            <p class="paragraph">Creating a better world requires teamwork, partnerships, and collaboration, as we need an entire community to work together to build a better world, 
+            <div class="partner-text">
+                <h1>Our Supporters</h1>
+            <p class="paragraph paragraph-sm">Creating a better world requires teamwork, partnerships, and collaboration, as we need an entire community to work together to build a better world, 
                 We thank the following organizations for their support in helping to build our communities
             </p>
+            </div>
             <div class="partner">
                 <div>
                     <img src="./images/apc.png" alt="" srcset="">
@@ -95,40 +97,63 @@
             </div>
     </section>
     <section id="posts">
-            <h1 class="section-header header-gradient">Recent Posts</h1>
-            <div class="post">
-                <div class="post-main">
-                    <img src="./images/havard.jpeg" alt="">
-                    <div class="post-head">
-                        <p class="meta"><span><i class="icofont-calendar"></i>February 5, 2019</span> &nbsp;<span><i class="icofont-ui-user"></i>Mayele Ngemba</span> </p>
-                        <h3 class="post-header"><a href="#">Harvard University Tour</a></h3>
+        <h1>Recent Posts</h1>
+            <div class="container">
+                <div class="post">
+                    <div class="post-container">
+                        <img src="./images/havard_725x420.jpg" alt="">
+                        <div>
+                            <p><i class="icofont-calendar"></i>February 5, 2019</p>
+                            <p><i class="icofont-ui-user"></i>Mayele Ngemba</p>
+                            <h3 class=""><a href="#">Harvard University Tour</a></h3>
+                        </div>                
                     </div>
-                </div>
-                <div class="post-side">
-                    <div>
-                        
-                        <div class="post-sider">
-                             <p class="meta"><span><i class="icofont-calendar"></i>February 5, 2019</span> &nbsp;<span><i class="icofont-ui-user"></i>Mayele Ngemba</span> </p>
-                            <p class=""><a href="#">2019 Refugee Miss Cleveland</a></p>
+                    <div class="post-container">
+                        <img src="./images/miss_720x420.jpg" alt="" srcset="">
+                        <div>
+                            <p><i class="icofont-calendar"></i>February 5, 2019</p>
+                            <p><i class="icofont-ui-user"></i>Mayele Ngemba</p>
+                            <h3 class=""><a href="#">2019 Refugee Miss Cleveland</a></h3>
+                        </div>                
+                    </div>
+                    <div class="post-container">
+                        <img src="./images/cops_725x420.jpg" alt="" srcset="">
+                        <div>
+                            <p><i class="icofont-calendar"></i>February 5, 2019</p>
+                            <p><i class="icofont-ui-user"></i>Mayele Ngemba</p>
+                            <h3 class=""><a href="#">2018 Refugees Cookout with Cops</a></h3>
                         </div>
-                        <img src="./images/miss_photo.jpg" alt="" srcset="">
                     </div>
-                    <div>
-                        
-                        <div class="post-sider">
-                             <p class="meta"><span><i class="icofont-calendar"></i>February 5, 2019</span> &nbsp;<span><i class="icofont-ui-user"></i>Mayele Ngemba</span> </p>
-                            <p class=""><a href="#">2018 Refugees Cookout with Cops</a></p>
+                    <div class="post-container">
+                        <img src="./images/havard_725x420.jpg" alt="">
+                        <div class="post-head">
+                            <p><i class="icofont-calendar"></i>February 5, 2019</p>
+                            <p><i class="icofont-ui-user"></i>Mayele Ngemba</p>
+                            <h3><a href="#">Harvard University Tour</a></h3>
                         </div>
-                        <img src="./images/polici.jpg" alt="" srcset="">
                     </div>
-                    
+                    <div class="post-container">
+                        <img src="./images/miss_720x420.jpg" alt="" srcset="">
+                        <div>
+                            <p><i class="icofont-calendar"></i>February 5, 2019</p>
+                            <p><i class="icofont-ui-user"></i>Mayele Ngemba</p>
+                            <h3 class=""><a href="#">2019 Refugee Miss Cleveland</a></h3>
+                        </div>                
+                    </div>
+                    <div class="post-container">
+                        <img src="./images/cops_725x420.jpg" alt="" srcset="">
+                        <div>
+                            <p><i class="icofont-calendar"></i>February 5, 2019</p>
+                            <p><i class="icofont-ui-user"></i>Mayele Ngemba</p>
+                            <h3 class=""><a href="#">2018 Refugees Cookout with Cops</a></h3>
+                        </div>
+                    </div>
+
                 </div>
-               
+                <div class="post-btn">
+                    <button class="btn btn-red">See all posts</button>
+                </div>
             </div>
-            <div class="post-btn">
-                <button class="btn btn-red">See all posts</button>
-            </div>
-            
     </section>
     <section id="video">
             <div class="scripps_iframe_embed " style="position:relative;"><div style="display:block;width:100%;height:auto;padding-bottom:56.25%;"></div><iframe style="position:absolute;top:0;left:0;width:100%; height:100%;" border="0" height="100%" frameborder="0" webkitallowfullscreen="" allowfullscreen="" mozallowfullscreen="" scrolling="no" scrolling="no" src="https://assets.scrippsdigital.com/cms/videoIframe.html?&vpost=https://x-default-stgec.uplynk.com/ausc/slices/9bd/b2c1c5c2af374f52af57ddcae54c6663/9bd7c2df8d0f45c2996163896da844b1/poster_9664120c3f66423a9bf6b14e399b9557.jpg&host=www.news5cleveland.com&title=A%20local%20refugee%20gives%20back%20to%20others%20in%20need&m3u8=https://content.uplynk.com/9bd7c2df8d0f45c2996163896da844b1.m3u8&purl=/news/e-team/cleveland-state-student-helps-refugees-from-africa-transition-for-life-in-the-states&story=0&ex=1&s=wews"></iframe></div>

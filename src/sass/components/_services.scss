@@ -1,19 +1,24 @@
 
+@media(min-width:768px){
+    .cars{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;    
+    }
+    .services{
+        padding: 4.8rem 0;
+    }
+
+}
+
 .services{
     padding: $x-big-size 0;
-    //background-image: $gradient, url("https://images.pexels.com/photos/163848/road-mountains-sunset-path-163848.jpeg?cs=srgb&dl=gray-concrete-road-beside-brown-mountain-during-golden-hour-163848.jpg&fm=jpg");
     background-image: url("https://images.pexels.com/photos/163848/road-mountains-sunset-path-163848.jpeg?cs=srgb&dl=gray-concrete-road-beside-brown-mountain-during-golden-hour-163848.jpg&fm=jpg");
     background-size: cover;
     background-position: center;
-    height: 70vh;
-    margin-top: $x-big-size;
+    border-top: $x-big-size solid $section-bg-color;
 }
 
-.cars{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;    
-}
 
 .services-card{
     flex-basis: 34rem;
@@ -22,6 +27,7 @@
     background: $white;
     opacity: .90;
     border-radius: 3px;
+    margin: 1.2rem;
 }
 
 .card-header{

@@ -22,11 +22,20 @@ body{
 
 }
 
-.meta{
+.small-text{
     font-size: $small-size;
     font-weight: 400;
 }
 
+
+.paragraph{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: $narmal-size ;
+    margin-bottom: $x-small-size;
+    font-weight: 400;
+}
 
 .paragraph-base{
     font-size: $base-size;
@@ -36,13 +45,14 @@ body{
    
 }
 
+
 .section-header{
     font-weight: 700;
     font-size: $big-size;
-    margin-bottom: $base-size;
     text-transform: uppercase;
-    
+    margin-bottom: $base-size;
 }
+
 
 .section-header--white{
     color: $white;
@@ -50,9 +60,39 @@ body{
 
 
 .header-gradient {
-    font-size: 72px;
     background: $gradient;//-webkit-linear-gradient(#eee, #333);
     background:$gradient-webkit;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
+}
+
+section h3{
+    font-size: 2.4rem;
+}
+
+section h1{
+    font-size: 3.6rem;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+
+@media(max-width: 768px){
+    .header-sm{
+        font-size: 2.4rem;
+        font-weight: 500;
+        
+    }
+    
+    .section-header{
+        font-weight: 500;
+        font-size: 2.4rem;       
+    }
+
+    div.header-txt > h1{
+        font-size: 1.8rem;
+    }
+    
+}

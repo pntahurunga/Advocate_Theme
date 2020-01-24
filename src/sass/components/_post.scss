@@ -1,57 +1,42 @@
 #posts{
-    background-image: url("../images/marketing_2.svg");
-    background-size: 55%;
-    background-position: left;
-    background-repeat: no-repeat;
+    background: #ECF4F6;
     padding: $x-big-size 0;
 }
-.post{  
-    width: $base-width;
-    display: flex;
-    margin: 0 auto;
+
+.post img{
+    width: 100%;
+}
+
+
+
+.post-container{
+    flex: 1;
+    flex-basis: 32rem;
+    padding: $narmal-size;
     background:$white;
-    padding:  $m-size;
     box-shadow: $box-shadow;
+    margin: 1.2rem;
+
 }
 
-.post-main{
-    padding: 0 $m-size;
-    flex-basis: 76rem;
-    position: relative;
-    img{
-        width: 100%;
-        box-shadow: $box-shadow;
-    }
-    
-}
-    
-
-.post-side{
+.post{  
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-basis: 38rem;
-    .post-side-1{
-        padding-bottom: $narmal-size;
-    }
-    img{
-        width: 100%;
-        box-shadow: $box-shadow;
-    }
+    flex-wrap: wrap;    
 }
 
-.post-header{
-    font-size: $m-size;
-    font-weight: 300;;
+
+.post p{
+    font-size: 1.4rem;
+    display: inline;
+    color: #636060;
+    margin-top: .8rem;
 }
 
-.post-sider--header{
-    font-size: $base-size;
-    color: $black; 
-    a{
-        text-decoration: none;
-        font-weight: 400;
-        color: $black;
-        line-height: 1;
+
+
+@media(max-width : 768px){
+    #posts{
+        padding:4.8rem 0;
     }
+    
 }

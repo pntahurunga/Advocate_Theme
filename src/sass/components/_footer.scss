@@ -1,3 +1,14 @@
+@media(max-width : 768px){
+    
+    .footer{
+        
+        flex-direction: column;
+    
+    }
+    
+}
+
+
 footer{
     background: #043A63;
     color: $white;
@@ -7,8 +18,8 @@ footer{
     display: flex;
 }
 
+
 .footer-left{
-    // flex: 1;
     padding: $narmal-size ;
 
     p{
@@ -21,25 +32,10 @@ footer{
     }
 
 }
-.footer-center{
-    flex: 1;
-    padding: $narmal-size;
-
-   ul{
-       list-style: none;
-       color: $light;
-       a:hover{
-           color: $white;
-       }
-   }
-
-}
-
 
 .footer-right{
     padding: $narmal-size;
     flex: 1;
-    
 
     form{
         display: flex;
@@ -53,6 +49,7 @@ footer{
             color: $black;
             border: none;
             box-sizing : border-box;
+            max-width: 100%;
         }
 
         textarea{
@@ -84,10 +81,9 @@ footer{
 
 .social {
     i{
-        font-size: $base-size;
+        font-size: $narmal-size;
         color: $light;
         margin-right: $x-small-size;
-        font-weight: 700;
         &:hover{
             color: $white;
             cursor: pointer;
@@ -95,3 +91,5 @@ footer{
     }
 
 }
+
+

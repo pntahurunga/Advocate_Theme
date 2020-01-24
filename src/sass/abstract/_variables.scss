@@ -20,6 +20,7 @@ $red : #e74c3c;
 $white : #fff;
 $blue :#3498DB;
 $dark-gray: #3498db;
+$section-bg-color: #ECF4F6;
 
 //colors gradient
 $background1: #2980B9;  /* fallback for old browsers */
@@ -30,3 +31,20 @@ $background3: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 1
 $gradient: linear-gradient(to top left, rgba(255, 255, 255, 0.50), rgba(109, 212, 250, 0.644), rgba(41, 127, 185, 0.692));//#3498db;
 $gradient-webkit : -webkit-linear-gradient(to top left, rgba(255, 255, 255, 0.50), rgba(109, 212, 250, 0.644), rgba(41, 127, 185, 0.692));//#3498db;
 
+
+
+// @media(max-width : 768px){
+
+//    .header-big-on-small{ 
+//         font-size: 4.8rem;
+//     }
+
+//     .header-mid-on-small{ 
+//         font-size: 2.4rem;
+//     }
+    
+//     .p-on-small{
+//         font-size: 1.6rem;
+//     }
+      
+// }

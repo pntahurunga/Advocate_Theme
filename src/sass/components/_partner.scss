@@ -5,22 +5,48 @@
     background:$dark-gray;
 
     img{
-        width: 35rem;
+        max-width: 32rem;
+        
     }
 
 }
 
-
-.paragraph{
-    width: 50%;
-    text-align: center;
-    margin: 0 auto;
-    font-size: $narmal-size ;
-    margin-bottom: $x-small-size;
-    font-weight: 300;
+.partner-text{
+    padding: 2.4rem;
 }
+
 
 
 #partners{
-    padding: $x-big-size 0;
+    padding-top: $x-big-size;
+    background: #ECF4F6;
 }
+
+@media(max-width : 768px){
+    
+    .partner{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+       
+
+        img{
+            max-width: 26rem;
+            margin-bottom: 2.4rem;
+            
+        }
+        
+    }
+    
+    
+
+    .paragraph-sm{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1.8rem ;
+        margin-bottom: $x-small-size;
+        font-weight: 400;
+    }
+}
+
